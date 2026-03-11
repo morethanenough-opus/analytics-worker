@@ -5,3 +5,11 @@ export function assertIsDefined<T>(val: T): asserts val is NonNullable<T> {
   }
 }
 
+
+interface UserProfile {
+  id: string;
+  email: string;
+  isActive: boolean;
+  roles: string[];
+}
+
